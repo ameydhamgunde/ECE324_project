@@ -17,6 +17,11 @@ num_instruments = 3
 pieces = os.listdir(r".\MIDI") #read midi classical pieces
 num_pieces = len(pieces)
 
+concert_response = np.load("concert.npy") #impulse response of concert hall
+noised_imgs = np.random.choice(indices, size = 100 replace = False)
+white_noise = np.random.normal(0,1,100) #white noise of length 100. Duplicate if longer needed
+amplitude_imgs = np.random.choice(indices, size = 50, replace = False)
+amplitude_adj = np.random.random(50) * max_amplitude
 
 data_types = ["all instr mixed pieces","all instr same piece"]
 folder_names = {"all instr mixed pieces": "mix", "all instr same piece": "same"}
