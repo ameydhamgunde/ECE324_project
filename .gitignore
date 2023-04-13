@@ -7,3 +7,5 @@ Track4/
 *.pyc
 mt3-pytorch/train_data/
 mt3-pytorch/val_data/
+mt3-pytorch/.git/
+results/
