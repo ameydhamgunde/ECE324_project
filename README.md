@@ -6,3 +6,5 @@ We have two files:
 - generate_music contains code to generate synthetic
 
 We uploaded one example of our synthetic audio, in the "0" folder. It contains the individual tracks of piano, clarinet, and guitar along with the combined track. 
+
+https://github.com/ameydhamgunde/ECE324_project/blob/main/ECE324_Report.pdf
